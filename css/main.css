@@ -1,0 +1,70 @@
+
+.container {
+  display: grid;
+  margin: 4rem;
+}
+
+.logo {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+  padding: 5ch 2ch;
+}
+
+.text {
+  display: grid;
+  grid-template-rows: 2fr 10fr;
+  justify-self: center;
+  align-self: center;
+}
+
+.nav {
+  display: grid;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  justify-self: center;
+  padding: 0 2rem;
+  margin: 0 2rem;
+  
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff700;
+}
+
+.message {
+  display: grid;
+  align-content: center;
+  grid-template-rows: 3fr 1fr;
+}
+
+.tagline {
+  justify-self: center;
+}
+
+.tagline h1 {
+  font-size: clamp(3rem, 5vw, 7rem);
+  margin: 0;
+  color: #05f0ff;
+  font-weight: 700;
+  -webkit-text-stroke: 2px black;
+}
+
+.project {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+
+

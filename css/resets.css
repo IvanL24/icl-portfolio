@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  /* background-color: #456177; */
+  background-color: #8F94A6;
+  /* background-image: linear-gradient(45deg, #0f3b3e, #00bdca); */
+  /* background-image: linear-gradient(45deg, #a76c00, #efdc00); */
+  font-family: 'Sarpanch', sans-serif;
+
+}
