@@ -66,5 +66,10 @@ a {
   align-content: center;
 }
 
+/* FORM CSS */
+.form {
+  display: none;
+  
+}
 
 

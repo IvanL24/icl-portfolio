@@ -1,0 +1,15 @@
+/* body {
+  display: grid;
+  justify-content: center;
+} */
+
+.about {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  width: 20%;
+}
+
+.bio h1 {
+  text-align: center;
+}
