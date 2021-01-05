@@ -7,9 +7,25 @@
   display: none;
   justify-content: center;
   align-content: center;
-  width: 20%;
+  text-align: center;
+  width: 35%;
+  border: 1px solid black;
+  align-self: center;
+  padding: 1rem;
+  border-radius: 30px;
+  font-size: 20px;
 }
 
-.bio h1 {
-  text-align: center;
+.about h2 {
+  text-align: end;
+  margin: 0;
+}
+
+h2 i {
+  margin: 10px;
+}
+
+.about p {
+  color: white;
+  line-height: 30px;
 }

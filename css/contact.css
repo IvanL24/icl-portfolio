@@ -1,0 +1,33 @@
+.form {
+  align-self: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+}
+
+.form .exit {
+  text-align: end;
+  margin: 0;
+}
+
+.exit i {
+  margin: 10px;
+}
+
+
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.options .card {
+  align-items: center;
+  text-align: center;
+}
+
+.card h1 {
+  margin: 0;
+}
