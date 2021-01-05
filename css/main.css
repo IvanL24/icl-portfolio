@@ -42,10 +42,38 @@ ul li {
   
 }
 
+
 a {
   text-decoration: none;
   font-size: clamp(10px, 2vw, 30px);
   color: #fff700;
+  padding: 0 15px;
+  border-radius: 10px;
+  transition: all 0.05s ease-in-out;
+
+
+
+
+}
+
+/* a:hover {
+  background: linear-gradient(42deg, #d7dde6, #a7a8ab);
+  box-shadow: inset 1px 4px 27px -2px #dad5d5, inset -11px 11px 17px -2px #909090;
+  text-shadow: 1px -1px 1px #fff700, -3px 2px 4px #8c8802;
+  color: #ffffff4d;
+  transform: translateY(-3px);
+  transition: all 0.05s ease-in-out;
+} */
+
+a:hover {
+    /* background: linear-gradient(42deg, #d7dde6, #a7a8ab); */
+  /* box-shadow: inset 1px 4px 27px -2px #dad5d5, inset -11px 11px 17px -2px #909090; */
+  text-shadow: 1px -1px 1px #00ffff, -3px 2px 4px #02738c;
+  color: #ffffff4d;
+  transform: translateY(-3px);
+  transition: all 0.05s ease-in-out;
+  /* border: 1px solid #b9babd; */
+  background-color: #7a7c86;
 }
 
 .message {
@@ -70,12 +98,6 @@ a {
   display: grid;
   justify-content: center;
   align-content: center;
-}
-
-/* FORM CSS */
-.form {
-  display: none;
-  
 }
 
 

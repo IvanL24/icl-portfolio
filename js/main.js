@@ -15,11 +15,11 @@ bio.addEventListener('click', function(event){
 
 
   body.style.backgroundColor = 'rgb(131, 132, 140)';
+  body.style.justifyContent = 'center';
   container.style.display = 'none';
   text.style.display = 'none';
   about.style.display = 'grid';
-  about.style.backgroundColor = '#8F94A6'
-  body.style.justifyContent = 'center';
+  about.style.backgroundColor = '#8F94A6';
 
 });
 

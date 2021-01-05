@@ -1,7 +1,4 @@
-/* body {
-  display: grid;
-  justify-content: center;
-} */
+
 
 .about {
   display: none;
@@ -14,6 +11,7 @@
   padding: 1rem;
   border-radius: 30px;
   font-size: 20px;
+
 }
 
 .about h2 {

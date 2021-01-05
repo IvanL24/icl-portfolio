@@ -1,4 +1,5 @@
 .form {
+  display: none;
   align-self: center;
   text-align: center;
   border: 1px solid black;
