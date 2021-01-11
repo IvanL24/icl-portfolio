@@ -1,20 +1,22 @@
-.form {
-  display: none;
+.contact {
+  display: flex;
+  flex-direction: column;
   align-self: center;
-  text-align: center;
-  border: 1px solid black;
+  /* text-align: center; */
+  /* border: 1px solid black; */
   border-radius: 30px;
   padding: 1rem 2rem;
+  color: aqua;
 }
 
-.form .exit {
+/* .form .exit {
   text-align: end;
   margin: 0;
 }
 
 .exit i {
   margin: 10px;
-}
+} */
 
 
 
@@ -25,10 +27,21 @@
 }
 
 .options .card {
+  /* display: flex;
+  justify-content: center; */
   align-items: center;
   text-align: center;
 }
 
+.card p {
+  margin: 1rem;
+}
+
+.card p a {
+  font-family: sans-serif;
+}
+
 .card h1 {
+  color: rgb(255, 255, 255);
   margin: 0;
 }
