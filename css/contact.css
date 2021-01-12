@@ -24,17 +24,19 @@
   display: flex;
   flex-direction: column;
   justify-items: center;
+  margin: 4rem;
 }
 
 .options .card {
-  /* display: flex;
-  justify-content: center; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .card p {
   margin: 1rem;
+  text-align: initial;
 }
 
 .card p a {
@@ -43,5 +45,4 @@
 
 .card h1 {
   color: rgb(255, 255, 255);
-  margin: 0;
 }

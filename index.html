@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/project.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/resets.css">
   <title>ICLavena</title>
@@ -15,16 +16,18 @@
 
 <!-- navigation -->
   <div class="nav">
-    <div>
-      <h1><a href="#">Ivan Lavena</a></h1>
+    <div class="name">
+      <a href="#">
+        <h1>Ivan Lavena</h1>
+      </a>
     </div>
     
     <div>
       <ul>
         <!-- <li><a href="#">Resume</a></li> -->
-        <li><a href="#">Projects</a></li>
         <li id="bio"><a href="#about">About</a></li>
-        <li id="contact"><a href="#contact">Contact</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li id="contact"><a href="#contacts">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -44,13 +47,7 @@
           <h1>A Junior Web</h1>
           <h1>Developer</h1>
         </div>
-        <div class="project">
-          <ul>
-            <li><a href="#"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://www.figma.com/files/drafts"><i class="fab fa-figma"></i></a></li>
-          </ul>
-  
-        </div>
+        
       </div>
     </div>
 
@@ -96,18 +93,19 @@
 
   <!-- projects area -->
 
-  <div class="projects"></div>
+  <div class="projects" id="project">
     <h1>Projects</h1>
     <a href="">
       <figure>
-        <img src="" alt="neumorphism">
+        <img src="img/neumorphism.png" alt="neumorphism">
         <figcaption>
-          Neumorphism practice
+          <p>Neumorphism practice</p>
         </figcaption>
       </figure>
     </a>
+  </div>
   <!-- contact -->
-  <div class="contact" id="contact">
+  <div class="contact" id="contacts">
 
 
     <h1>Get in touch:</h1>
@@ -136,6 +134,14 @@
   </div>
 
   <footer>
+    <div class="project">
+      <ul>
+        <li><a href="#"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.figma.com/files/drafts"><i class="fab fa-figma"></i></a></li>
+        <li><a href="#"><i class="fab fa-codepen"></i></a></li>
+      </ul>
+
+    </div>
     &copy; Ivan Lavena 2021
   </footer>
 

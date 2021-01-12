@@ -1,0 +1,19 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6rem;
+}
+
+.projects h1 {
+  color: aqua;
+}
+
+.projects p {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+figure img {
+  width: 20rem;
+}
