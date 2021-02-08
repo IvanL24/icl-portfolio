@@ -121,6 +121,33 @@ li a:hover {
   text-shadow: -8px 7px 11px #474c67;
 }
 
+.resume  {
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+
+.resume > .button {
+
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #fff700;
+
+}
+
+.button > a {
+  color: #047e86;
+  font-weight: bold;
+}
+
+
 .project {
   display: flex;
   justify-content: center;
